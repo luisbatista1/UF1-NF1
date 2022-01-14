@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+
+    </title>
+
+    <style>
+ table, tr, td {
+             border: 10px solid grey ; 
+             border-collapse: collapse;
+             width:500px ;
+        } 
+        th, td {
+            padding: 15px; ;
+        } 
+        tr:nth-child(even){
+            color: red;
+        } 
+        tr:nth-child(3){
+            color:blue;
+        }        
+
+    </style>
+<body>
+    <table class=”table1”>
+        <tr>
+            <td rowspan="1">Fila 1</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">Fila 2</td>
+        </tr>
+        <tr>
+            <td colspan="5">Fila 3</td>
+        </tr>
+    </table>
+
+</body>
+
+</head>
